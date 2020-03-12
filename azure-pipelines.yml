@@ -15,6 +15,7 @@ variables:
 stages:
 - stage: Unit Test
   displayName: Run Unit Test
+  steps:
   - task: UseNode@1
     - script: npm test
 
